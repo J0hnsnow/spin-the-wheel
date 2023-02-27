@@ -25,12 +25,12 @@ class _SpinTheWheelState extends State<SpinTheWheel>
   late Animation<double> _animation;
   double _angle = 0;
   List<String> _items = [
-    'Prize 1',
-    'Prize 2',
-    'Prize 3',
-    'Prize 4',
-    'Prize 5',
-    'Prize 6'
+    'hood',
+    'shoes',
+    'socks',
+    'extra spin',
+    'spin again',
+    'sorry try again later'
   ];
   final _emailController = TextEditingController();
 
